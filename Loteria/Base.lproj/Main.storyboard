@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,23 +13,23 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Loteria" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top" translatesAutoresizingMaskIntoConstraints="NO" id="ma8-eU-gd0">
-                                <rect key="frame" x="0.0" y="0.0" width="336" height="121.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="186"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ma8-eU-gd0" secondAttribute="height" multiplier="86:59" constant="159.23728813559325" id="r0f-C8-JED"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mega-Sena" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jo2-P5-ntl">
-                                <rect key="frame" x="16" y="36.5" width="304" height="48"/>
+                                <rect key="frame" x="16" y="69" width="398" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlQ-8l-GRC">
-                                <rect key="frame" x="16" y="498" width="288" height="50"/>
+                                <rect key="frame" x="16" y="792" width="382" height="50"/>
                                 <color key="backgroundColor" red="0.1319727302" green="0.25492239" blue="0.62143594030000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ul7-eG-N7H"/>
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="sKa-0g-Hux">
-                                <rect key="frame" x="13" y="228" width="294" height="192"/>
+                                <rect key="frame" x="60" y="392" width="294" height="192"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Xiu-eh-Nnv">
                                         <rect key="frame" x="0.0" y="0.0" width="294" height="90"/>
@@ -105,7 +105,7 @@
                                 </subviews>
                             </stackView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0GU-1J-fMW">
-                                <rect key="frame" x="16" y="147.5" width="288" height="32"/>
+                                <rect key="frame" x="16" y="212" width="382" height="32"/>
                                 <segments>
                                     <segment title="Mega-sena"/>
                                     <segment title="Quina"/>
@@ -119,7 +119,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0GU-1J-fMW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="INc-wS-Yv7"/>
-                            <constraint firstItem="ma8-eU-gd0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NFQ-HH-vlt"/>
+                            <constraint firstItem="ma8-eU-gd0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JvF-EB-y3M"/>
                             <constraint firstItem="ma8-eU-gd0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PtL-Aj-kVM"/>
                             <constraint firstItem="Jo2-P5-ntl" firstAttribute="centerY" secondItem="ma8-eU-gd0" secondAttribute="centerY" id="SZs-Lb-EJK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0GU-1J-fMW" secondAttribute="trailing" constant="16" id="THR-d1-YzB"/>
@@ -147,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="112.8" y="83.208395802098963"/>
+            <point key="canvasLocation" x="111.59420289855073" y="83.035714285714278"/>
         </scene>
     </scenes>
     <resources>
