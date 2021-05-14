@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top" translatesAutoresizingMaskIntoConstraints="NO" id="ma8-eU-gd0">
-                                <rect key="frame" x="0.0" y="0.0" width="430" height="186"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="118.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="ma8-eU-gd0" secondAttribute="height" multiplier="86:59" constant="159.23728813559325" id="r0f-C8-JED"/>
+                                    <constraint firstAttribute="width" secondItem="ma8-eU-gd0" secondAttribute="height" multiplier="86:40" constant="159" id="r0f-C8-JED"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mega-Sena" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jo2-P5-ntl">
-                                <rect key="frame" x="16" y="69" width="398" height="48"/>
+                                <rect key="frame" x="16" y="35.5" width="382" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -105,7 +105,7 @@
                                 </subviews>
                             </stackView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0GU-1J-fMW">
-                                <rect key="frame" x="16" y="212" width="382" height="32"/>
+                                <rect key="frame" x="16" y="144.5" width="382" height="32"/>
                                 <segments>
                                     <segment title="Mega-sena"/>
                                     <segment title="Quina"/>
@@ -124,6 +124,7 @@
                             <constraint firstItem="Jo2-P5-ntl" firstAttribute="centerY" secondItem="ma8-eU-gd0" secondAttribute="centerY" id="SZs-Lb-EJK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0GU-1J-fMW" secondAttribute="trailing" constant="16" id="THR-d1-YzB"/>
                             <constraint firstItem="0GU-1J-fMW" firstAttribute="top" secondItem="ma8-eU-gd0" secondAttribute="bottom" constant="26" id="aRK-U9-Pj2"/>
+                            <constraint firstAttribute="trailing" secondItem="ma8-eU-gd0" secondAttribute="trailing" id="esR-DL-2Ul"/>
                             <constraint firstItem="IlQ-8l-GRC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hje-fe-gz4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Jo2-P5-ntl" secondAttribute="trailing" id="nFm-J8-jcM"/>
                             <constraint firstItem="ma8-eU-gd0" firstAttribute="centerX" secondItem="Jo2-P5-ntl" secondAttribute="centerX" id="odL-cc-RwY"/>
