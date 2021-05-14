@@ -26,7 +26,7 @@ func >-< (total: Int, universe: Int) -> [Int] {
 
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var lbGameTitle: UILabel!
     @IBOutlet weak var segmentedGameType: UISegmentedControl!
     
@@ -36,18 +36,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         showNumbers(for: .megasena)
     }
-
+    
     @IBAction func generateGame() {
-
+        
         switch segmentedGameType.selectedSegmentIndex {
         case 0:
             showNumbers(for: .megasena)
             
         default:
             showNumbers(for: .quina)
-
+            
         }
-    
+        
     }
     
     func showNumbers(for type: GameType) {
@@ -63,11 +63,25 @@ class ViewController: UIViewController {
         case .quina:
             game = 5>-<80
             balls.last!.isHidden = true
-
+            
             print("quina")
         }
         for (index, game) in game.enumerated() {
             balls[index].setTitle("\(game)", for: .normal)
+        }
+        animatedViews()
+    }
+    
+    func animatedViews() {
+        
+        for button in balls {
+            button.alpha = 0
+        }
+        
+        UIView.animate(withDuration: 1) {
+            for button in self.balls {
+                button.alpha = 1
+            }
         }
     }
     
