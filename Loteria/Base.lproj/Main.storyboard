@@ -43,6 +43,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="generateGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="9FC-2f-Bmc"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="sKa-0g-Hux">
                                 <rect key="frame" x="13" y="228" width="294" height="192"/>
@@ -50,24 +53,24 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Xiu-eh-Nnv">
                                         <rect key="frame" x="0.0" y="0.0" width="294" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLi-0e-1mM">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLi-0e-1mM">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                                <state key="normal" title="60" backgroundImage="ball">
+                                                <state key="normal" title="6" backgroundImage="ball">
                                                     <color key="titleColor" red="0.10204324871301651" green="0.086248688399791718" blue="0.49886941909790039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Fl-uX-eop">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Fl-uX-eop">
                                                 <rect key="frame" x="102" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                                <state key="normal" title="60" backgroundImage="ball">
+                                                <state key="normal" title="17" backgroundImage="ball">
                                                     <color key="titleColor" red="0.10204324871301651" green="0.086248688399791718" blue="0.49886941909790039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-Iy-m8F">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-Iy-m8F">
                                                 <rect key="frame" x="204" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                                <state key="normal" title="60" backgroundImage="ball">
+                                                <state key="normal" title="49" backgroundImage="ball">
                                                     <color key="titleColor" red="0.10204324871301651" green="0.086248688399791718" blue="0.49886941909790039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
@@ -76,24 +79,24 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="CF6-Bf-8dA">
                                         <rect key="frame" x="0.0" y="102" width="294" height="90"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frq-u2-Qdm">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frq-u2-Qdm">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                                <state key="normal" title="60" backgroundImage="ball">
+                                                <state key="normal" title="61" backgroundImage="ball">
                                                     <color key="titleColor" red="0.10204324871301651" green="0.086248688399791718" blue="0.49886941909790039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ys-Th-NAm">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ys-Th-NAm">
                                                 <rect key="frame" x="102" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                                <state key="normal" title="60" backgroundImage="ball">
+                                                <state key="normal" title="69" backgroundImage="ball">
                                                     <color key="titleColor" red="0.10204324871301651" green="0.086248688399791718" blue="0.49886941909790039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fad-34-1ol">
+                                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fad-34-1ol">
                                                 <rect key="frame" x="204" y="0.0" width="90" height="90"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
-                                                <state key="normal" title="60" backgroundImage="ball">
+                                                <state key="normal" title="88" backgroundImage="ball">
                                                     <color key="titleColor" red="0.10204324871301651" green="0.086248688399791718" blue="0.49886941909790039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                             </button>
@@ -102,11 +105,14 @@
                                 </subviews>
                             </stackView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0GU-1J-fMW">
-                                <rect key="frame" x="16" y="147" width="288" height="32"/>
+                                <rect key="frame" x="16" y="147.5" width="288" height="32"/>
                                 <segments>
                                     <segment title="Mega-sena"/>
                                     <segment title="Quina"/>
                                 </segments>
+                                <connections>
+                                    <action selector="generateGame" destination="BYZ-38-t0r" eventType="valueChanged" id="RAh-cT-nvI"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -130,6 +136,13 @@
                     </view>
                     <connections>
                         <outlet property="lbGameTitle" destination="Jo2-P5-ntl" id="Luf-xG-plT"/>
+                        <outlet property="segmentedGameType" destination="0GU-1J-fMW" id="5Mm-9T-dLi"/>
+                        <outletCollection property="balls" destination="TLi-0e-1mM" collectionClass="NSMutableArray" id="bjV-90-BFW"/>
+                        <outletCollection property="balls" destination="0Fl-uX-eop" collectionClass="NSMutableArray" id="Yjq-Lf-ca6"/>
+                        <outletCollection property="balls" destination="0lY-Iy-m8F" collectionClass="NSMutableArray" id="faI-f3-FeD"/>
+                        <outletCollection property="balls" destination="frq-u2-Qdm" collectionClass="NSMutableArray" id="si1-iF-JQQ"/>
+                        <outletCollection property="balls" destination="3ys-Th-NAm" collectionClass="NSMutableArray" id="6Pw-Mc-Y48"/>
+                        <outletCollection property="balls" destination="Fad-34-1ol" collectionClass="NSMutableArray" id="uWN-cY-QbN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
